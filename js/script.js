@@ -102,7 +102,10 @@
             spaceBetween: 20,
           }
         },
-      }); 
+      });
+       
+
+
 
       var swiper = new Swiper(".testimonial-swiper", {
         loop: true,
