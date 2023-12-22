@@ -1022,3 +1022,16 @@ figure.instagram-item img.insta-image {
 .post-navigation:focus svg {
     fill: var(--primary-color);
 }
+#mobile-products img , #smart-watches img , #children img {
+  border: 0.5px solid wheat;
+  width: "200PX";
+  height: 370PX;
+  background-size:contain ;
+}
+.card-image img
+{
+  display: flex;
+  background-size:100%;
+width: 450px;
+height: 300px;
+}
