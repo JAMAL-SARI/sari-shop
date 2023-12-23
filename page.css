@@ -4,38 +4,172 @@
     --clr-line:rgb(201, 233, 239);
     
 }
+
 body{
     background: var(--clr-body);
-    h2{
-        position: relative;
-   text-align: center;
-   
-    font-size: larger;
-    margin: 3PX;
-    padding: 2PX;
-
-    }
-    table{
-        margin: 2px;
-    }
 
 }
-.man-sect tr td .conti {
-    width: 250PX;
-    height: 300PX;
-}
-.man-sect tr td .conti img {
+/* 
+
+ /* headre */
+
+ .header{
+    position: fixed;
+    background: wheat;
+    z-index: 2;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 80%;
-} 
-.man-sect tr td .conti a {
-   text-decoration: none;
-background:var(--clr-img) ;
-height: 20PX;
+height: 65px;
+
+ }
+
+    h2{
+        border-left:5px solid red ;
+        border-right:5px solid red ;
+        left: 700px;
+        border-radius: 10%;
+         padding-left:90PX ;
+        width: fit-content;
+        position: relative;
+        text-align: center;
+        font-size: larger;
+         margin: 3PX;
+       padding: 2PX;} 
+
+       /* BUTTON */
+
+.header button {
+    margin: 14px;
+    font-size: 1.08em;
+    padding: 5PX;
+    letter-spacing: 3PX;
+    width: 78PX;
+    background: radial-gradient(rgb(224, 236, 0),green);
+    border-radius: 10px;
+    
 }
-.man-sect tr td P {
+/* section man  */
+
+    
+    table{
+        position: relative;
+        margin: 30px;
+        left: 70px;
+        padding-top: 56PX;
+        
+    }
+    table tr td{
+        padding: 12px;
+    }
+
+}
+.sect .conti{
+    border-radius: 2%;
+    width: 400PX;
+    height: 
+    500PX;
+    background: rgb(235, 235, 222);
+}
+
+.sect .conti:hover{ 
+    background: wheat;
+    transform: scale(1.14);
+
+    box-shadow: 1PX 1PX 1PX BLACK;
+   
+}
+
+ .discr {
+  padding: 0;
+margin-left: 10PX;
+    height: fit-content;}
+
+.sect  .conti img {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+} 
+.sect tr td .conti a {
+    position: relative;
+   text-decoration: none;
+   bottom: 160PX;
+  right: -290PX;
+font-size: 1.1em;
+border: 1PX solid wheat;
+height:fit-content;
+padding: 0;
+box-shadow: 1PX 2PX 5PX grey;
+}
+.sect tr td .conti a:hover{
+    background:rgb(244, 216, 216) ;
+    color: black;
+}
+.sect tr td .conti a:active{
+    color: rgb(235, 197, 197);
+    background-color: aquamarine;
+}
+.sect tr td P {
     width: fit-content;
- background:var(--clr-line) ;
+
+ padding: 0;
  
  }
  
+
+ /* section women */
+ 
+ 
+.wome .conti:hover{ 
+ background: rgb(241, 192, 154);
+ transform: scale(1.14);
+
+ box-shadow: 1PX 1PX 13PX rgb(240, 244, 9);
+
+}
+
+.wome tr td .conti a {
+ position: relative;
+text-decoration: none;
+bottom: 160PX;
+right: -290PX;
+font-size: 1.1em;
+border: 1PX solid wheat;
+height:fit-content;
+padding: 0;
+box-shadow: 1PX 2PX 15PX rgb(245, 106, 106);
+}
+
+/* children section */
+
+.child .conti{
+    border-radius: 2%;
+    width: 400PX;
+    height: 
+    500PX;
+    background: rgb(240, 240, 225);
+}
+
+
+
+.child .conti:hover{ 
+    background: rgb(217, 240, 179);
+    transform: scale(1.14);
+   
+    box-shadow: 1PX 1PX 13PX rgb(9, 244, 232);
+   
+   }
+   
+  
+   .child tr td .conti a {
+    position: relative;
+   text-decoration: none;
+   bottom: 160PX;
+   right: -290PX;
+   font-size: 1.1em;
+   border: 1PX solid wheat;
+   height:fit-content;
+   padding: 0;
+   box-shadow: 1PX 2PX 15PX rgb(79, 244, 211);
+   }
