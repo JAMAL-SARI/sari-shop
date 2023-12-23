@@ -28,6 +28,7 @@ height: 65px;
         border-left:5px solid red ;
         border-right:5px solid red ;
         left: 700px;
+        top: 0px;
         border-radius: 10%;
          padding-left:90PX ;
         width: fit-content;
@@ -63,7 +64,7 @@ height: 65px;
         padding: 12px;
     }
 
-}
+
 .sect .conti{
     border-radius: 2%;
     width: 400PX;
@@ -92,9 +93,10 @@ margin-left: 10PX;
     border-top-left-radius: 3%;
 } 
 .sect tr td .conti a {
+    padding: 12PX;
     position: relative;
    text-decoration: none;
-   bottom: 160PX;
+   bottom: 150PX;
   right: -290PX;
 font-size: 1.1em;
 border: 1PX solid wheat;
