@@ -21,9 +21,9 @@ for(let i=0; i<childProd.length;i++){
 for(let j=0; j<menProd.length;j++){
     menProd[j].onclick=function()
     {
-         menProd[j].innerHTML='it is Add to Cart',
-         menProd[j].parentElement.style.border='red solid 2px',
-         menProd[j].style="color:red; background:aqua",
+         menProd[j].innerHTML='it is Add to Cart';
+         menProd[j].parentElement.style.border='red solid 2px';
+         menProd[j].style="color:red; background:aqua";
            }
 }
 
