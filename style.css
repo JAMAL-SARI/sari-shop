@@ -191,14 +191,7 @@ a:hover {
   margin-bottom: 9em;
 }
 
-@media only screen and (max-width: 768px) {
-  .margin-small,
-  .margin-medium,
-  .margin-large {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-}
+
 
 
 /* - Section Title
