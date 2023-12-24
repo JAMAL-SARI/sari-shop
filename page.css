@@ -18,13 +18,14 @@ body{
  /* headre */
 
  .header-men , .header-child , .header-women{
-    
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
     position: fixed;
     background: wheat;
     z-index: 2;
-    top: 0;
-    left: 0;
-    width: 100%;
+   width: 100%;
 height: 65px;
 
  }
@@ -32,10 +33,10 @@ height: 65px;
  
 
     h2{
+        
         border-left:5px solid red ;
         border-right:5px solid red ;
-        left: 900px;
-        top: -70px;
+         left: 900px;
         border-radius: 10%;
          padding-left:90PX ;
         width: fit-content;
@@ -50,7 +51,7 @@ height: 65px;
     font-size: 1.08em;
     padding: 5PX;
     letter-spacing: 3PX;
-    width: 78PX;
+    width: 98PX;
     background: radial-gradient(rgb(224, 236, 0),green);
     border-radius: 10px;
     
@@ -60,16 +61,23 @@ height: 65px;
     
     table{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         position: relative;
         margin: 30px;
-        left: 70px;
+        left: 0px;
         padding-top: 56PX;
+        justify-content: center;
         
     }
-    table tr td{
+    table tr {
+        display: flex;
         flex-wrap: wrap;
-        padding: 12px;
+        
+    }
+    table tr  td{
+   
+        flex-wrap: wrap;
+        padding: 15px;
     }
 
 
@@ -106,7 +114,7 @@ margin-left: 10PX;
     position: relative;
    text-decoration: none;
    bottom: 140PX;
-  right: -290PX;
+  right: -150PX;
 font-size: 1.1em;
 border: 1PX solid wheat;
 height:fit-content;
@@ -144,7 +152,7 @@ box-shadow: 1PX 2PX 5PX grey;
  position: relative;
 text-decoration: none;
 bottom: 140PX;
-right: -290PX;
+right: -150PX;
 font-size: 1.1em;
 border: 1PX solid wheat;
 height:fit-content;
@@ -177,7 +185,7 @@ box-shadow: 1PX 2PX 15PX rgb(245, 106, 106);
     position: relative;
    text-decoration: none;
    bottom: 140PX;
-   right: -290PX;
+   right: -150PX;
    font-size: 1.1em;
    border: 1PX solid wheat;
    height:fit-content;
