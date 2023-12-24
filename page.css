@@ -15,17 +15,10 @@ body{
 
 }
  
-@media only screen and (max-width: 768px) {
-  .margin-small,
-  .margin-medium,
-  .margin-large {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-}
  /* headre */
 
- .header{
+ .header-men , .header-child , .header-women{
+    
     position: fixed;
     background: wheat;
     z-index: 2;
@@ -35,6 +28,8 @@ body{
 height: 65px;
 
  }
+
+ 
 
     h2{
         border-left:5px solid red ;
@@ -50,7 +45,7 @@ height: 65px;
 
        /* BUTTON */
 
-.header button {
+.header-men div button ,.header-child div button , .header-women div button {
     margin: 14px;
     font-size: 1.08em;
     padding: 5PX;

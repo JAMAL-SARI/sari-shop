@@ -106,7 +106,7 @@
         },
       });
 
-      var swiper1 = new Swiper(".product-watch-swiper", {
+      var swiper1 = new Swiper(".product-watch-swiper1", {
         slidesPerView: 4,
         spaceBetween: 10,
         pagination: {
