@@ -101,18 +101,18 @@ margin-left: 10PX;
     border-top-right-radius: 3%;
     border-top-left-radius: 3%;
 } 
-.sect tr td .conti a {
+.men tr td .conti a {
     padding: 12PX;
     position: relative;
    text-decoration: none;
-   bottom: 150PX;
+   bottom: 140PX;
   right: -290PX;
 font-size: 1.1em;
 border: 1PX solid wheat;
 height:fit-content;
 padding: 0;
 box-shadow: 1PX 2PX 5PX grey;
-}
+} 
 .sect tr td .conti a:hover{
     background:rgb(244, 216, 216) ;
     color: black;
@@ -143,7 +143,7 @@ box-shadow: 1PX 2PX 5PX grey;
 .wome tr td .conti a {
  position: relative;
 text-decoration: none;
-bottom: 160PX;
+bottom: 140PX;
 right: -290PX;
 font-size: 1.1em;
 border: 1PX solid wheat;
@@ -176,7 +176,7 @@ box-shadow: 1PX 2PX 15PX rgb(245, 106, 106);
    .child tr td .conti a {
     position: relative;
    text-decoration: none;
-   bottom: 160PX;
+   bottom: 140PX;
    right: -290PX;
    font-size: 1.1em;
    border: 1PX solid wheat;
