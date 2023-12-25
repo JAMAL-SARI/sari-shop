@@ -733,6 +733,11 @@ h3.cart-title {
     width: 15px;
     height: 15px;
 }
+.swiper-pagination span{
+  width: 35px;
+  height: 35px;
+  background: radial-gradient(RED,YELLOW, PINK);
+}
 
 /* 5. Testimonial
 /*----------------------------------------------*/
